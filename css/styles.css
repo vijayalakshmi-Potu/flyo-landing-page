@@ -1,0 +1,192 @@
+nav{
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+}
+.nav-link{
+    color:hsl(0, 0%, 75%);
+}
+.navbar-brand img{
+    height:50px;
+    width:auto;
+}
+
+.headerLogo{
+    margin-top: 50px;
+}
+
+
+#intro h1{
+    font-family:'Raleway',sans-serif;
+    font-weight: 700;
+    font-size:2.8em;
+}
+#intro p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+#intro .inputEmail{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#intro .inputEmail:focus{
+    box-shadow: 0px 0px 10px hsl(238, 22%, 44%);
+    border:none !important;
+}
+#intro .btn-blue{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius:0px 0px;
+}
+#intro .btn-blue:hover{
+    background-color: hsl(238, 22%, 44%);
+}
+#intro .illustration1 {
+    height: 500px;
+    margin: auto;
+    width:100%;
+}
+#intro .introMatter{
+    flex-direction:row-reverse;
+}
+#about{
+    background-image: url(../images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+#about .illustration2 {
+    height: 500px;
+    margin: auto;
+    width:100%;
+}
+#about h2{
+    font-family:'Raleway',sans-serif;
+    font-weight: 700;
+    font-size:2.8em;
+}
+#about p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+#about a{
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom:1px solid hsl(170, 45%, 43%);
+}
+#about .icon-quotes{
+    width: 16px;
+    height: auto;
+}
+#about .testimonial-avatar{
+    border-radius: 50px;
+}
+#about .aboutMatter{
+    flex-direction:row-reverse;
+}
+#about a:hover{
+    color: hsl(238, 22%, 44%);
+    border-bottom:1px solid hsl(238, 22%, 44%);
+}
+#about .testimonial h6{
+    font-weight: 700 !important;
+}
+#about small{
+    font-size: 1em;
+    font-weight:400;
+    font-family: 'Open Sans',sans-serif;
+}
+#about .testimonial{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+}
+#about .testimonial:hover{
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+#contact{
+    background-color:hsl(238, 22%, 44%);
+}
+#contact .paddingContact{
+    padding:70px 20px;
+}
+#contact{
+    color:white;
+}
+#contact h2{
+    font-family:'Raleway',sans-serif;
+    font-weight: 700;
+    font-size:2.5em;
+}
+#contact p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+#contact .contactEmail{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#contact .contactEmail:focus{
+    box-shadow: 0px 0px 10px hsl(243, 87%, 12%);
+    border:none !important;
+}
+#contact .btn-blue{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius:0px 0px;
+}
+#contact .btn-blue:hover{
+    background-color: hsl(243, 87%, 12%);
+}
+#contact .btn-md-none{
+    width:200px;
+}
+.ending{
+    background-color: hsl(243, 87%, 12%);
+    font-family: 'Open-sans',sans-serif;
+}
+.ending{
+    color:hsl(0, 0%, 75%) !important;
+    padding:50px 0;
+}
+footer .logoFooter{
+    filter: brightness(0) invert(1);
+}
+footer ul a{
+    text-decoration:none;
+    color:hsl(0, 0%, 75%) !important;
+    font-size:15px;
+}
+footer ul a:hover{
+    border-left: 1px solid hsl(0, 0%, 75%);
+    padding-left:10px;
+    text-decoration: none;
+}
+footer .socialIcons a{
+    text-decoration:none;
+    color:hsl(0, 0%, 75%) !important;
+}
+footer .socialIcons a i{
+    border:1px solid hsl(0, 0%, 75%);
+    padding:5px;
+    border-radius: 50%;
+}
+footer .socialIcons a i:hover{
+    color:hsl(243, 87%, 12%);
+    background-color: hsl(0, 0%, 75%);
+}
+
+
+@media screen and (max-width: 450px){
+    .headerLogo{
+        width:50px !important;
+        height: auto;
+    }
+}
+@media screen and (max-width: 310px){
+    .headerLogo{
+        width:25px !important;
+        height: auto;
+    }
+}
